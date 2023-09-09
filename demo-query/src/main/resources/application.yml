@@ -1,0 +1,18 @@
+server:
+    port: 8082
+spring:
+    data:
+        mongodb:
+            authentication-database: examples
+            database: examples
+            username: api_user
+            password: NdEep0XLpMNKUmgQVa81oDCx7mrSRodh0Z79qdX3
+            host: localhost
+            port: 30001
+    kafka:
+        bootstrap-servers: localhost:29092
+        consumer:
+            group-id: test-consumer-group
+message:
+    topic:
+        createPhone: create-phone
